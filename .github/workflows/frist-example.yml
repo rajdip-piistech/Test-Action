@@ -8,6 +8,10 @@ jobs:
         steps:
             - name: wellcome message
               run: echo "My job run"
+
+            - name: list show
+              run : ls
+
              
 
 
