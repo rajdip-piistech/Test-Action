@@ -1,8 +1,11 @@
 name: my-project
-on:push
+
+on: 
+  push
+
 jobs:
-    my_job:
-        runs-on:ubuntu-latest
+  my_job:
+    runs-on: ubuntu-latest
     steps:
-        - name: wellcome-message
-          run: echo "My First Workflow GitHub Jobs"
+      - name: welcome-message
+        run: echo "My First Workflow GitHub Jobs"
