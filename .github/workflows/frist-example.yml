@@ -1,11 +1,14 @@
-name: my-project
+name: my-wrokflow
 
-on: 
-  push
+on:
+    push
 
 jobs:
-  my_job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: welcome-message
-        run: echo "My First Workflow GitHub Jobs"
+    my_job:
+        runs-on:ubuntu-latest
+        setps:
+            -name: wellcome message
+             run: ceho "My job run"
+             
+
+
