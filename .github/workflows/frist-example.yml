@@ -5,7 +5,7 @@ on:
 jobs:
     my_job:
         runs-on:ubuntu-latest
-        setps:
+        steps:
             -name: wellcome message
              run: ceho "My job run"
              
