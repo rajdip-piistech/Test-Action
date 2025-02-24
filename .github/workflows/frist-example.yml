@@ -4,10 +4,10 @@ on:
     push
 jobs:
     my_job:
-        runs-on:ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
-            -name: wellcome message
-             run: ceho "My job run"
+            - name: wellcome message
+              run: echo "My job run"
              
 
 
