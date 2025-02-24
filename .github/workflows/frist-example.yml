@@ -1,0 +1,6 @@
+name: my-project
+on:push
+jobs:
+    runs-on:ubuntu-latest
+    - name: wellcome-message
+      run: echo "My First Workflow GitHub Jobs"
