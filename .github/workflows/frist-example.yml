@@ -6,6 +6,9 @@ jobs:
     my_job:
         runs-on: ubuntu-latest
         steps:
+            - name: chceked repo
+              uses: actions/checkout@v4
+
             - name: wellcome message
               run: echo "My job run"
 
