@@ -1,0 +1,19 @@
+name: test_jobs
+on:
+    push
+jobs:
+    my_jobs:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checked repo
+              uses: actions/checkedout@v4
+              
+            - name: well mg
+              run: echo "My frist job"
+            
+            
+
+            
+
+
+
